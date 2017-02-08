@@ -64,7 +64,7 @@
             }
         </style>
     </head>
-    <body class="{{$generate_route_body_classes()}}">
+    <body class="{{Route2Class::generateClassString()}}">
         <div class="flex-center position-ref full-height">
             @if (Route::has('login'))
                 <div class="top-right links">
